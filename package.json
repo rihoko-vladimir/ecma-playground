@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "scripts" :
+  { "firstTask": "node firstTask/main.js"}
+}
