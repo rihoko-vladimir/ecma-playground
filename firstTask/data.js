@@ -1,6 +1,41 @@
-export {movieLists,newReleases,myTestArray};
+export {movieLists,newReleases,myTestArray, ratings, boxarts, videos};
 
 const myTestArray = [{ok: "not ok",}, {hello: "good bye",},];
+
+let ratings = [2,3,1,4,5];
+
+let videos = [{
+    "id": 65432445,
+    "title": "The Chamber"
+}, {
+    "id": 675465,
+    "title": "Fracture"
+}, {
+    "id": 70111470,
+    "title": "Die Hard"
+}, {
+    "id": 654356453,
+    "title": "Bad Boys"
+}];
+
+
+let boxarts = [{
+    width: 200,
+    height: 200,
+    url: "http://cdn-0.nflximg.com/images/2891/Fracture200.jpg"
+}, {
+    width: 150,
+    height: 200,
+    url: "http://cdn-0.nflximg.com/images/2891/Fracture150.jpg"
+}, {
+    width: 300,
+    height: 200,
+    url: "http://cdn-0.nflximg.com/images/2891/Fracture300.jpg"
+}, {
+    width: 425,
+    height: 150,
+    url: "http://cdn-0.nflximg.com/images/2891/Fracture425.jpg"
+}];
 
 let newReleases = [{
     "id": 70111470,
